@@ -1,0 +1,5 @@
+nltk
+tqdm
+pypdf
+openai
+ipykernel
