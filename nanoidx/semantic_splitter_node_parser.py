@@ -189,7 +189,7 @@ class SemanticSplitterNodeParser:
                 combined_text = "".join(combined_sentences[start_idx:])
                 chunks.append(combined_text)
         else:
-            chunks.append("".join(combined_sentences))
+            chunks.append(" ".join(combined_sentences))
 
         return chunks
     
